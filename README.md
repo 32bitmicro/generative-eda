@@ -1,4 +1,4 @@
-Generative EDA Book
+Generative EDA
 =======
 
-Generative EDA is the 
+This book describes Generative EDA, a new approach to designing electronic circuits. 
