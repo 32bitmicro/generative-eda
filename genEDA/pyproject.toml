@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genEDA"
+version = "0.0.1"
+authors = [
+  { name="Pawel Wodnicki", email="pawel.wodnicki@live.com" },
+]
+description = "genEDA a Generative EDA (Electronic Design Automation) package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/32bitmicro/generative-eda"
+"Bug Tracker" = "https://github.com/32bitmicro/generative-eda/issues"
