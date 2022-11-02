@@ -5,12 +5,14 @@ Generative EDA
 Circuit representation in Python
 
 Pins
+Pin is touples of (index,name)
 
-Device
+Devices
+Device is a class 
 
 Reference ID
 
-Passive componnents:
+Passive devices:
 
 R - Resistor
 C - Capacitor
@@ -18,7 +20,7 @@ L - Inductor
 Pins: 1,2
 Value: numeric or code 
 
-Active components:
+Active devices:
 
 D - Diode
 Pins: Anode Cathode
@@ -42,9 +44,6 @@ Model: text
 
 U - integrated circuit
 Model: text
-
-Pins
-Pin is touples of (index,name)
 
 Nets
 Collection of tupples (Componnent,Pin)

@@ -80,3 +80,12 @@ class U(Device):
         Device.__init__(self,refid,name,"")
         self.pins = []
         self.value = ''
+class Net:
+    def __init__(self,name='') -> None:
+        self.name = name
+        self.nodes = []
+class Circuit:
+    def __init__(self,name='') -> None:
+        self.name = name
+        self.devices = []
+        self.nets = []
