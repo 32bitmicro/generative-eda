@@ -1,9 +1,9 @@
 import sys
  
 # setting path
-sys.path.append('../')
+sys.path.append('../src')
  
-from src.genEDA import *
+from genEDA import *
 
 # devices 
 

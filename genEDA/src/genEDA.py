@@ -1,8 +1,9 @@
 
 class Pin:
-    def __init__(self,idx,name) -> None:
+    def __init__(self,idx,name,function='',type='') -> None:
         self.idx = idx
         self.name = name
+        self.type = type
 
 class Device:
     def __init__(self,refid,name,type) -> None:
