@@ -1,3 +1,4 @@
 *.pyc
 __pycache__
 dist
+src/genEDA.egg-info
