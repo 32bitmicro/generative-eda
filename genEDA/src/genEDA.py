@@ -90,3 +90,4 @@ class Circuit:
         self.name = name
         self.devices = []
         self.nets = []
+        self.pins = []
