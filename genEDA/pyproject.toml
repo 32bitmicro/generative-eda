@@ -1,22 +1,15 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[project]
+[tool.poetry]
 name = "genEDA"
-version = "0.0.1"
-authors = [
-  { name="Pawel Wodnicki", email="pawel.wodnicki@live.com" },
-]
+version = "0.1.0"
 description = "genEDA a Generative EDA (Electronic Design Automation) package"
+authors = ["Pawel Wodnicki <pawel.wodnicki@live.com>"]
+license = "MIT License"
 readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
 
-[project.urls]
-"Homepage" = "https://github.com/32bitmicro/generative-eda"
-"Bug Tracker" = "https://github.com/32bitmicro/generative-eda/issues"
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
